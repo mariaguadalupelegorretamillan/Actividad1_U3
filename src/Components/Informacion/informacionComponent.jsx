@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Contador from "../Contador/contador";
 import { GlobalContext } from "../../Context/Global/global.context";
-import miimagen from "../../assets/mifoto.png"
+import miimagen from "../../assets/mio.png"
 import iphp from "../../assets/php.png"
 import icss from "../../assets/css.png"
 import ihtml from "../../assets/html.png"
