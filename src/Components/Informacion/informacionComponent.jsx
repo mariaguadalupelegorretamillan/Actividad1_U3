@@ -20,23 +20,23 @@ function InformacionComponent() {
 
   return (
     <div>
-      <div className="barra">
+      <div className="menu">
         <ul>
           <li>
-            <p >Home</p>
+            <p >HOME</p>
           </li>
           <li>
-              <p onClick={() => changeLaguage("en")}>Ingles</p>
+              <p onClick={() => changeLaguage("en")}>INGLES</p>
           </li>
           <li>
-              <p  onClick={() => changeLaguage("es")} >Español</p>
+              <p  onClick={() => changeLaguage("es")} >ESPAÑOL</p>
           </li>
         </ul>
 
         <div className="n1">
-          <p><b>in</b></p>
+          <p><b>IN</b></p>
         </div>
-        <div className="n1-img">
+        <div className="img1">
           <img src={imagen}  height="22px" class="logs"></img>
         </div>
         
@@ -45,31 +45,31 @@ function InformacionComponent() {
       <div className="card-info">
         <div className="container-info">
           <h1 className="tit">{t("title")}</h1>
-          <p className="text-info" >{t("subtitle")}</p>
+          <p className="info" >{t("subtitle")}</p>
           <br/>
-          <button className="botonV" onClick={() => handleCount("increment")}><p>{t("botons")}</p></button>
+          <button className="botoon" onClick={() => handleCount("increment")}><p>{t("botons")}</p></button>
           <Contador />
         </div>
       </div>
-      <img src={miimagen} className="miimagen"/>
+      <img src={miimagen} className="mio"/>
       <br/><br/><br/>
       <div className="cad-info-tecnologias">
-        <div className="tecnologia">
-            <div className="card-tecnologia">
-                <img src={iphp} className="img-tecnologia"/>
-                <p className="text-tecnologia">PHP</p>
+        <div className="lenguajes">
+            <div className="card-lenguajes">
+                <img src={iphp} className="img-lenguajes"/>
+                <p className="text-lenguajes">PHP</p>
             </div>
-            <div className="card-tecnologia">
-                <img src={ihtml} className="img-tecnologia"/>
-                <p className="text-tecnologia">HTML</p>
+            <div className="card-lenguajes">
+                <img src={ihtml} className="img-lenguajes"/>
+                <p className="text-lenguajes">HTML</p>
             </div>
-            <div className="card-tecnologia">
-                <img src={icss} className="img-tecnologia"/>
-                <p className="text-tecnologia">CSS</p>
+            <div className="card-lenguajes">
+                <img src={icss} className="img-lenguajes"/>
+                <p className="text-lenguajes">CSS</p>
             </div>
-            <div className="card-tecnologia">
-                <img src={ijava} className="img-tecnologia"/>
-                <p className="text-tecnologia">JavaS</p>
+            <div className="card-lenguajes">
+                <img src={ijava} className="img-lenguajes"/>
+                <p className="text-lenguajes">JavaS</p>
             </div>
         </div>
       </div>

@@ -23,7 +23,7 @@
   }
 }
 
-.barra{
+.menu{
   margin-left: 70px;
   margin-right: 70px;
   border-radius: 8px;
@@ -85,8 +85,8 @@ ul li{
   width: 500px;
 }
 
-.text-info{
-  font-size: medium;
+.info{
+  font-size: large;
   color: #ffffff;
 }
 
@@ -98,8 +98,20 @@ ul li{
   font-size: large;
   color: #ffffff;
 }
+.n1{
+  position: absolute;
+  top: 14px;
+  right: 195px;
+  font-size: large;
+}
 
-.botonV{
+.img1{
+  position: absolute;
+  top: 33px;
+  right: 165px;
+}
+
+.botoon{
   width: 180px;
   height: 45px;
   font-weight: 16px;
@@ -116,7 +128,7 @@ ul li{
   box-shadow: 0px 0px 16px 0px rgba(112, 252, 84, 0.815);
 }
 
-.miimagen{
+.mio{
   width:300px;
     height:300px;
     border-radius:150px;
@@ -129,13 +141,13 @@ ul li{
   box-shadow: 0 0px 16px 0 rgb(58, 58, 58);
 }
 
-.tecnologia{
+.lenguajes{
   top: 410px;
   left: -55px;
   position: relative;
 }
 
-.card-tecnologia{
+.card-lenguajes{
   position: relative;
   border-radius: 10px;
   height: 70px;
@@ -153,7 +165,7 @@ ul li{
   box-shadow: 0 0px 16px 0 rgb(58, 58, 58);
 }
 
-.img-tecnologia{
+.img-lenguajes{
   height: 50px;
   width: 50px;
   margin: 12px;
@@ -161,7 +173,7 @@ ul li{
   left: -50px;
 }
 
-.text-tecnologia{
+.text-lenguajes{
   position: relative;
   top: -95px;
   color:rgb(53, 52, 52);
@@ -169,18 +181,6 @@ ul li{
   margin-left: 55px;
 }
 
-.n1{
-  position: absolute;
-  top: 14px;
-  right: 195px;
-  font-size: large;
-}
-
-.n1-img{
-  position: absolute;
-  top: 33px;
-  right: 165px;
-}
 body {
   background-color: #000000;
 }
